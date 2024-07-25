@@ -40,11 +40,11 @@ const Home = () => {
             placeholder="Add Task"
             onChange={(e) => setNewTask(e.target.value)}
             value={newTask}
-            className="border-2 border-blue-600 rounded-lg w-full px-4"
+            className="border-2 border-blue-600 rounded-lg w-full px-4 outline-none"
           />
           <button
             onClick={handleSubmit}
-            className="py-2 px-6 border bg-blue-500 text-white font-bold rounded-lg"
+            className="py-2 px-6 border bg-blue-500 text-white font-bold rounded-lg outline-none"
           >
             {isEditing ? "Save" : "Add"}
           </button>
